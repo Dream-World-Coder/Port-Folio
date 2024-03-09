@@ -217,6 +217,13 @@ section {
         font-style: normal;
         font-weight: 200; 
     }
+
+    .inverse:hover {
+        color: whitesmoke;
+        transform: translateX(10px);
+        opacity: 1;
+        background-color: #000;
+    }
     
     a{
         text-decoration: none;
