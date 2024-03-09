@@ -102,10 +102,23 @@ a:active{
     color: rgb(255, 162, 0);
 }
 
-.inverse:hover{
+.inverse {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+}
+
+.inverse:hover {
     color: whitesmoke;
+    transform: translateX(20px);
+    opacity: 1;
     background-color: #000;
 }
+
+.inverse:hover span {
+    animation: none;
+}
+
 
 section {
     display: grid;
@@ -141,15 +154,15 @@ section {
     }
     
     #name{
-        margin: 10px;
+        margin: 15px;
         font-weight: 300;
-        font-size: 0.8em;
+        font-size: 1.3em;
     }
     
     #intro{
-        margin:10px;
+        margin: 15px;
         font-weight: 200;
-        font-size: 0.5em;
+        font-size: 0.8em;
     }
     
     #exp{
