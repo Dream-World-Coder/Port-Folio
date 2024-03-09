@@ -132,3 +132,86 @@ section {
     filter: blur(0);
     transform: translateX(0);
 }
+
+@media screen and (max-width: 510px){
+    #hello{
+        font-size: 6.8rem;
+        font-weight: 700;
+        margin: 10px;
+    }
+    
+    #name{
+        margin: 10px;
+        font-weight: 300;
+        font-size: 0.8em;
+    }
+    
+    #intro{
+        margin:10px;
+        font-weight: 200;
+        font-size: 0.5em;
+    }
+    
+    #exp{
+        padding-top: 30px;
+        margin: 15px;
+        font-size: 1.8em;
+        font-weight: 350;
+    }
+    
+    body {
+        /* background-color: #131316; */
+        background-color:bisque;
+        /* color: #ffffff; */
+        color: #131316;
+        font-family: 'Poppins', sans-serif;
+        padding: 0;
+        margin: 0;
+    }
+    
+    #first{
+        margin-top: 30px;
+        margin-left: 30px;
+        margin-right: 30px;
+        /*  */
+        margin-bottom: 4px; 
+        /*  */
+        font-size: 0.5em;
+        font-style: normal;
+        font-weight: 200;
+    }
+    
+    #second{
+        /*  */
+        margin-top: 4px;
+        margin-bottom: 4px;
+        /*  */
+        margin-left: 30px;
+        margin-right: 30px;
+        font-size: 0.5em;
+        font-style: normal;
+        font-weight: 200;
+    }
+    
+    #last{
+        /*  */
+        margin-top: 4px;
+        margin-bottom: 30px;
+        /*  */
+        margin-left: 30px;
+        margin-right: 30px;
+        font-size: 0.5em;
+        font-style: normal;
+        font-weight: 200; 
+    }
+    
+    a{
+        text-decoration: none;
+        border-bottom: 1px dotted #000;
+    }
+    .hidden h1{
+        font-size: 0.9em;
+        font-style:inherit;
+        font-weight: 250;
+    }
+}
