@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
+
+@keyframes slideIn {
+    0% {
+        transform: translateX(-50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+#hello {
+    animation: slideIn 1.5s ease-out;
+}
+
+#hello{
+    font-size: 11.8rem;
+    font-weight: 900;
+    margin: 30px;
+}
+
+#name{
+    margin: 30px;
+    font-weight: 500;
+    font-size: 1.8em;
+}
+
+#intro{
+    margin:30px;
+    font-weight: 400;
+    font-size: 1.5em;
+}
+
+#exp{
+    padding-top: 60px;
+    margin:30px;
+    font-size: 3.8em;
+    font-weight: 550;
+}
+
+body {
+    /* background-color: #131316; */
+    background-color:bisque;
+    /* color: #ffffff; */
+    color: #131316;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+#first{
+    margin-top: 60px;
+    margin-left: 60px;
+    margin-right: 60px;
+    /*  */
+    margin-bottom: 8px; 
+    /*  */
+    font-size: 1.2em;
+    font-style: normal;
+    font-weight: 400;
+}
+
+#second{
+    /*  */
+    margin-top: 8px;
+    margin-bottom: 8px;
+    /*  */
+    margin-left: 60px;
+    margin-right: 60px;
+    font-size: 1.2em;
+    font-style: normal;
+    font-weight: 400;
+}
+
+#last{
+    /*  */
+    margin-top: 8px;
+    margin-bottom: 60px;
+    /*  */
+    margin-left: 60px;
+    margin-right: 60px;
+    font-size: 1.2em;
+    font-style: normal;
+    font-weight: 400; 
+}
+
+a{
+    text-decoration: none;
+    border-bottom: 1px dotted #000;
+}
+
+a:hover{
+    background: linear-gradient(to right, red, rgb(255, 162, 0));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+a:active{
+    color: rgb(255, 162, 0);
+}
+
+.inverse:hover{
+    color: whitesmoke;
+    background-color: #000;
+}
+
+section {
+    display: grid;
+    place-items: center; 
+    align-content: center; 
+    min-height: 40vh;
+}
+
+.hidden h1{
+    font-size: 2.1em;
+    font-style:inherit;
+    font-weight: 450;
+}
+
+.hidden{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s ;
+}
+
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
