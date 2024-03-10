@@ -11,6 +11,20 @@
     }
 }
 
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.animated-div {
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+}
+
+#div1 { animation-delay: 0s; }
+#div2 { animation-delay: 1s; }
+#div3 { animation-delay: 2s; }
+
 #hello {
     animation: slideIn 1.5s ease-out;
 }
