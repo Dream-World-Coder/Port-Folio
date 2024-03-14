@@ -173,7 +173,7 @@ section {
 @media screen and (max-width: 510px) {
     /* Fonts and Margins */
     #hello {
-        font-size: 6.8rem;
+        font-size: 4.3rem;
         font-weight: 700;
         margin: 10px;
     }
@@ -238,12 +238,12 @@ section {
     }
 
     /* Hover Effect */
-    .inverse:hover {
+/*     .inverse:hover {
         color: whitesmoke;
         transform: translateX(10px);
         opacity: 1;
         background-color: #000;
-    }
+    } */
 
     /* Links */
     a {
