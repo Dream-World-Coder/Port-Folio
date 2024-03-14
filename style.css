@@ -238,12 +238,9 @@ section {
     }
 
     /* Hover Effect */
-/*     .inverse:hover {
-        color: whitesmoke;
-        transform: translateX(10px);
-        opacity: 1;
-        background-color: #000;
-    } */
+    .inverse:hover {
+        font-size: 0.5em;
+    }
 
     /* Links */
     a {
