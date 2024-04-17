@@ -149,7 +149,7 @@ body {
 /* <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><> */
 /* <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><> */
 /* NAV */
-/* nav{
+nav{
     animation: fadeIn 1.2s ease-out;
 }
 nav ul {
@@ -183,7 +183,7 @@ nav ul li a:hover{
     background-clip: text;
     color: transparent;
     animation: underline 800ms forwards;
-} */
+}
 
 .cursor {
   position: absolute;
@@ -197,43 +197,31 @@ nav ul li a:hover{
   transition: transform 0.3s;
 }
 
-
+/* 
 nav{
   position: fixed;
   height: 40px;
   width: 90px;
   border-radius: 35px;
-
   background-color: rgb(168, 168, 168);
-  /* background-color: black; */
-  /* mix-blend-mode: difference; */
-
   margin-left: 50%;
   margin-top: 20px;
   font-size: 0px;
   mix-blend-mode: difference;
-  /* backdrop-filter: blur(5px); */
-  /* --webkit-backdrop-filter: blur(2px); */
   transition: 0.3s;
   z-index: 1;
-}
-
+} */
+/* 
 nav:hover{
-/* make the nav fixed at top while srolling */
   position: fixed;
   height: 60px;
   width: 20vw;
  
-  /* margin-left: 50vw;
-  margin-top: 20px; */
-
   background-color: rgb(168,168,168);
   color: rgb(255, 255, 255);
   border: 1px rgb(255, 255, 255) solid;
-  /* font: optional; */
   font-size: 17px;
   mix-blend-mode: difference;
-  /* filter: blur(2px); */
   border-radius: 35px;
 
   display: inline !important;
@@ -242,11 +230,11 @@ nav:hover{
   z-index: 1;
   transform: translateX(-50%) scale(1);
 }
-
+ */
 .div1:hover ~ .cursor {
   transform: translate(-50%, -50%) scale(3); 
 }
-
+/* 
 nav ul{
   display: flex !important;
   justify-content: space-evenly !important;
@@ -264,7 +252,7 @@ nav ul li a{
   mix-blend-mode: difference !important;
 }
 
-
+ */
 
 
 
