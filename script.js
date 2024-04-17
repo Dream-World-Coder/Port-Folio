@@ -17,3 +17,15 @@ const cursor = document.querySelector('.cursor');
         cursor.style.left = e.pageX + 'px';
         cursor.style.top = e.pageY + 'px';
   })
+
+  function toggleDarkMode() {
+    const root = document.documentElement;
+    const sunIcon = document.getElementById("sun-icon");
+    const moonIcon = document.getElementById("moon-icon");
+  
+    root.classList.toggle('invert');
+  
+    // Toggle visibility of sun and moon icons
+    sunIcon.style.display = sunIcon.style.display === "none" ? "inline" : "none";
+    moonIcon.style.display = moonIcon.style.display === "none" ? "inline" : "none";
+  }
