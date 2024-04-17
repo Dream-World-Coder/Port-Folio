@@ -150,6 +150,12 @@ body {
 /* <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><> */
 /* NAV */
 nav{
+    position: fixed;
+    left: 30px;
+  top: 20px;
+  height: 35px;
+  width: auto;
+  background-color: transparent;
     animation: fadeIn 1.2s ease-out;
 }
 nav ul {
