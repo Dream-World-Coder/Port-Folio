@@ -151,8 +151,8 @@ body {
 /* NAV */
 nav{
     position: fixed;
-    left: 30px;
-  top: 20px;
+    right: 30px;
+  top: 15px;
   height: 35px;
   width: auto;
   background-color: transparent;
